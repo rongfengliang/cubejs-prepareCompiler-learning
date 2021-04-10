@@ -1,0 +1,12 @@
+{
+  "name": "cubejs-schema-compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cubejs-backend/schema-compiler": "^0.26.87"
+  },
+  "scripts": {
+    "app":"node index"
+  }
+}

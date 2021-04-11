@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@cubejs-backend/postgres-driver": "^0.26.90",
     "@cubejs-backend/schema-compiler": "^0.26.87"
   },
   "scripts": {
-    "app":"node index"
+    "app": "node index"
   }
 }

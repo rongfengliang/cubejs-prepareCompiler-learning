@@ -1,5 +1,5 @@
 cube('visitors', {
-    sql: `select * from visitors`,
+    sql: `select * from visitors WHERE ${SECURITY_CONTEXT.source.filter('source')}`,
     measures: {
         visitor_count: {
             type: 'count',
@@ -18,7 +18,7 @@ cube('visitors', {
             sql: 'source'
         },
         created_at: {
-            type: 'date',
+            type: 'time',
             sql: 'created_at'
         }
     }
